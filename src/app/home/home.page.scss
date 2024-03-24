@@ -25,3 +25,13 @@
 #container a {
   text-decoration: none;
 }
+
+#container ion-card img{
+  width: 50vw;
+}
+
+@media screen and (min-width: 750px) {
+  #container ion-card img{
+    width: 25vw;
+  }
+}
